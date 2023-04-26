@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-color: #201b2c;
+
+}
+
+.wa {
+    font-family: 'Righteous', cursive;
+    color: #00ff88;
+}
+
+h2 {
+    color: #00ff88;
+    font-family: 'Righteous', cursive;
+}
+
+.git {
+    font-family: 'Righteous', cursive;
+    color: #00ff88;
+}
+.reddit {
+    font-family: 'Righteous', cursive;
+    color: #00ff88;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #00ff88; 
+    border: 1px solid gray;
+    display: inline-block;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "o";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "x";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    position: relative;
+    top: 5px;
+}
+
+
+
+
+
+
